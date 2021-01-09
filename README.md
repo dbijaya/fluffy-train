@@ -5,7 +5,8 @@ I have made some advancements in this project than in my previous project [furry
 
 **Advancements:** 
 - MySQL Database: In previous project, I used integrated Apache Derby Database, but this project has MySQL database.
-- also, I used Hibernate inplace of JPA. [Hibernate vs. JPA](https://dzone.com/articles/what-is-the-difference-between-hibernate-and-sprin-1#:~:text=Hibernate%20is%20a%20JPA%20implementation,solution%20to%20GenericDao%20custom%20implementations.&text=question%20at%20StackOverflow.-,Hibernate%20provides%20a%20reference%20implementation%20of%20the%20Java%20Persistence%20API,with%20benefits%20of%20loose%20coupling.) , more about [Hibernate](https://www.javaguides.net/p/hibernate-tutorial.html).
+- also, I used Hibernate inplace of JPA.
+	- Read: [Hibernate vs. JPA](https://dzone.com/articles/what-is-the-difference-between-hibernate-and-sprin-1#:~:text=Hibernate%20is%20a%20JPA%20implementation,solution%20to%20GenericDao%20custom%20implementations.&text=question%20at%20StackOverflow.-,Hibernate%20provides%20a%20reference%20implementation%20of%20the%20Java%20Persistence%20API,with%20benefits%20of%20loose%20coupling.) , more about [Hibernate](https://www.javaguides.net/p/hibernate-tutorial.html).
 
 ## Explore Rest APIs
 
@@ -26,7 +27,8 @@ Test these requests using Postman or any other HTTP REST-client.
 ## Set-Up
 **1. Clone project:**
 
-    - First, locate to your local Directory.
+First, locate to your local Directory then hit:
+
 ```bash
 git clone https://github.com/dbijaya/fluffy-train/
 ```
