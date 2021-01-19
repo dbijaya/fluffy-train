@@ -28,7 +28,7 @@ public class BloodGroupController {
 		return bloodGroupService.get();
 	}
 	
-	@PostMapping("/user/{userId}/bloodgroup/{id}")
+	@PostMapping("/user/{userId}/bloodgroup")
 	public BloodGroup save(@RequestBody BloodGroup bgObj) {
 		bloodGroupService.save(bgObj);
 		return bgObj;
@@ -49,7 +49,7 @@ public class BloodGroupController {
 		return "Blood-group has been deleted with id: " + id;
 	}
 	
-	@PutMapping("/user/{userId}/bloodgroup")
+	@PutMapping("/user/{userId}/bloodgroup/{id}")
 	public BloodGroup update(@RequestBody BloodGroup bgObj) {
 		bloodGroupService.save(bgObj);
 		return bgObj;
